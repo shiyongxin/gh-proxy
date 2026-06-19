@@ -88,6 +88,25 @@ git -c "http.extraHeader=X-Proxy-Token: YOUR_TOKEN" \
 - [部署指南](deploy.md) - Cloudflare Worker 部署详细步骤
 - [Git 代理使用指南](git-proxy-guide.md) - Git 操作通过代理的完整说明
 
-## 许可证
+## 致谢
 
-基于 [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) 构建。
+本项目基于 [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) 构建，感谢原作者 [hunshcn](https://github.com/hunshcn) 的优秀工作。
+
+### 原项目
+
+- **项目地址**：https://github.com/hunshcn/gh-proxy
+- **在线演示**：https://hunshcn.github.io/gh-proxy/
+- **功能**：GitHub 文件加速代理，支持 release、archive、blob、raw 等链接的加速访问
+
+### 本项目改进
+
+在原项目基础上，本项目添加了以下功能：
+
+- 🔐 **Token 认证**：支持通过 URL 参数或自定义 Header 进行身份验证
+- 📖 **交互式页面**：内置使用说明和 Token 验证功能
+- 🔧 **Git Push 支持**：通过 X-Proxy-Token Header 实现 Git 推送操作
+- 📝 **完整文档**：部署指南和 Git 代理使用说明
+
+### 许可证
+
+本项目遵循原项目的开源许可证。请尊重原作者的劳动成果，使用时保留原作者信息。

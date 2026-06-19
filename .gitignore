@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Standalone HTML (embedded in index.js)
+index.html
+
+# Local settings
+.claude/settings.local.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+.wrangler/
